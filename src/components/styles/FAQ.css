@@ -1,0 +1,78 @@
+.Faq{
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.Faq h4{
+    font-size: 25px;
+    margin: 10px 10%;
+}
+
+.Faq h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+    margin: 10px 5%;
+}
+
+.Faq h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+    color: gray;
+    margin: 10px 5%;
+}
+
+.Faq .questions{
+    margin: 80px 15%;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+.Faq p{
+    text-align: left;
+    width: 100%;
+    padding: 25px 80px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+}
+
+.QBox{
+    &.active{
+        background-color: rgb(89, 65, 245, 0.8);
+        color: white;
+        transition: all 0.3s ease 0s;
+    }
+}
+
+.answers{
+    line-height: 1.7;
+    transition: all 0.3s ease 0s;
+    color: rgb(91, 91, 91);
+}
+
+@media (max-width: 768px) {
+    .Faq h4 {
+      font-size: 20px; /* Decrease font size for smaller screens */
+    }
+  
+    .Faq h1 {
+      font-size: 40px; /* Decrease font size for smaller screens */
+    }
+  
+    .Faq h5 {
+      font-size: 16px; /* Decrease font size for smaller screens */
+      margin: 10px 5%; /* Adjust margin for smaller screens */
+    }
+  
+    .Faq .questions {
+      margin: 40px 5%; /* Adjust margin for smaller screens */
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 10px 0px rgba(0, 0, 0, 0.15);
+    }
+  
+    .Faq p {
+      padding: 15px 40px; /* Adjust padding for smaller screens */
+      font-size: 16px; /* Decrease font size for smaller screens */
+    }
+  }

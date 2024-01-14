@@ -1,0 +1,597 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(89, 65, 245, 1); 
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(89, 65, 245, 0.9); 
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Navbar component style */
+
+/* li, a, button{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 8%;
+}
+
+.logo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    cursor: default;
+    user-select: none;
+    color: rgb(89, 65, 245, 1);
+    margin-right: auto;
+
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #5740ec;
+}
+
+.Navbar-button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(89, 65, 245, 1);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.Navbar-button:hover{
+    background-color: rgb(89, 65, 245, 0.85);
+} */
+
+
+/* Home component style */
+
+/* .Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 150px 0 150px 8%;
+}
+
+.Home .blue-car{
+    width: 600px;
+}
+
+.Home .text h3{
+    font-size: 25px;
+    margin: 2% 0;
+}
+
+.Home .text h1{
+    font-size: 50px;
+    margin: 2% 0;
+}
+
+.Home .text p{
+    font-size: 15px;
+    margin: 2% 0;
+    color: gray;
+}
+
+.Home .big{
+    color: rgb(89, 65, 245);;
+}
+
+.Home .LButton{
+    margin-top: 2%;
+    margin-right: 20px;
+    padding: 13px 25px;
+    font-size: 18px;
+    border-radius: 3px;
+    background-color: rgb(89, 65, 245, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.Home .LButton:hover{
+    background-color: rgb(89, 65, 245, 0.85);
+}
+
+.Home .RButton{
+    margin-right: auto;
+    padding: 13px 25px;
+    font-size: 18px;
+    border-radius: 3px;
+    background-color: rgb(0, 0, 0, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.Home .RButton:hover{
+    background-color: rgb(0, 0, 0, 0.85);
+} */
+
+
+/* Book component style */
+
+/* .Book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0;
+}
+
+.Book .first div,.Book .second div{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(56, 55, 55);
+}
+
+.Book h1{
+    font-size: 30px;
+    margin: 2% 0;
+}
+
+.Book select, input{
+    margin-top: 10px;
+    font-size: 15px;
+    border-style: hidden;
+    background-color: rgb(243, 239, 239);
+    padding: 10px 60px;
+}
+
+.Book .DDate{
+    margin-left: 15px;
+}
+
+.Book button{
+    padding: 15px 122px;
+    margin-left: 81px;
+    font-size: 15px;
+    border-radius: 3px;
+    background-color: rgb(89, 65, 245, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.Book button:hover{
+    background-color: rgb(89, 65, 245, 0.85);    
+} */
+
+
+/* About component style */
+
+/* .About{
+    display: inline-block;
+    margin: 50px 10% 20px 10%;
+}
+
+.About .BText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.About h1,.About  h3,.About  h6,.About  p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.About  h3{
+    font-size: 25px;
+}
+
+.About h1{
+    font-size: 40px;
+}
+
+.About  p{
+    font-size: 20px;
+}
+
+.About  h6{
+    font-size: 20px;
+}
+
+.About .description{
+    margin-top: 100px;
+}
+
+.About .car-icon1{
+    display: flex;
+    margin-left: 140px;
+    width: 80px;
+}
+
+.About .car-icon2{
+    display: flex;
+    margin-left: 135px;
+    width: 90px;
+}
+
+.About .car-icon3{
+    display: flex;
+    margin-left: 123px;
+    width: 90px;
+} */
+
+
+/* PickCar component style */
+
+/* .Models{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 200px 10% 150px 10%;
+}
+
+.CarImage{
+    width: 500px;
+}
+
+.Models .buttons button{
+    display: block;
+    width: 100%;
+    padding: 18px 50px;
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: rgb(207, 207, 207);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.Models .buttons button:hover{
+    background-color: rgb(89, 65, 245, 0.85);  
+    color: rgb(255, 255, 255);  
+} */
+
+
+/* CarBox component style */
+
+/* .carbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.info td{
+    border: 1px solid;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.info p{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(89, 65, 245, 1);
+    color: white;
+}
+
+.info table{
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.info button{
+    padding: 15px 90px;
+    margin-top: 25px;
+    font-size: 20px;
+    border-radius: 3px;
+    background-color: rgb(89, 65, 245, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.info button:hover{
+    background-color: rgb(89, 65, 245, 0.85);    
+} */
+
+
+/* Banner component style */
+
+/* .Banner{
+    text-align: center;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    margin: 200px 0;
+    padding: 60px 0;
+}
+
+.Banner h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.Banner span{
+    color: rgb(89, 65, 245, 0.85);
+} */
+
+
+/* Testimonials component style */
+
+/* .Testimonials{
+    display: flex;
+    flex-direction: column;
+    margin: 120px 0;
+    padding: 120px 10%;
+    background-color: rgb(240, 240, 240);
+}
+
+.Testimonials .text{
+    text-align: center;
+    margin-bottom: 100px
+}
+
+.Testimonials .comments{ 
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.Testimonials h4{
+    font-size: 25px;
+}
+
+.Testimonials h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.Testimonials h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+    color: gray;
+}
+
+.Testimonials .comment-area{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 35px 35px;
+    width: 600px;
+    height: 280px;
+    background-color: white;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 20px 10px rgba(0, 0, 0, 0.15);
+}
+
+.Testimonials .joe{
+    width: 90px;
+    margin-right: 40px;
+}
+
+.Testimonials .description{
+    margin-bottom: 10px;
+}
+
+.Testimonials .profile{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-top: 30px;
+}
+
+.Testimonials .profile p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Testimonials .country{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(28, 28, 28);
+}
+
+.Testimonials .rating{
+    width: 150px;
+    margin: -10px 23% 50px 23%;
+} */
+
+
+/* FAQ component style */
+
+/* .Faq{
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.Faq h4{
+    font-size: 25px;
+}
+
+.Faq h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.Faq h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+    color: gray;
+}
+
+.Faq .questions{
+    margin: 80px 300px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.Faq p{
+    text-align: left;
+    width: 100%;
+    padding: 25px 80px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+}
+
+.QBox{
+    &.active{
+        background-color: rgb(89, 65, 245, 0.8);
+        color: white;
+        transition: all 0.3s ease 0s;
+    }
+}
+
+.answers{
+    line-height: 1.7;
+    transition: all 0.3s ease 0s;
+    color: rgb(91, 91, 91);
+} */
+
+
+
+/* Download component style */
+
+/* .Download{
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+    background-color: #f1f1f2;
+}
+
+.Download .text{
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 35%;
+}
+
+.Download h1{
+    font-size: 50px;
+}
+
+.Download p{
+    margin: 25px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+}
+
+.Download .app{
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+.Download .phone{
+    margin-top: 50px;
+    margin-bottom: 50px;
+} */
+
+
+/* Footer component style */
+
+/* .footer{
+    padding: 50px 0 70px 0;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.col h4{
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.container ul{
+    list-style: none;
+}
+
+.container li{
+    margin-bottom: 5px;
+}
+
+.container li a{
+    font-size: 18px;
+    transition: all 0.3s ease 0s;
+}
+
+.container li a:hover{
+    color: #5740ec;
+}
+
+.container button{
+    padding: 15px 111px;
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 3px;
+    background-color: rgb(89, 65, 245, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.container button:hover{
+    background-color: rgb(89, 65, 245, 0.85);    
+} */
+

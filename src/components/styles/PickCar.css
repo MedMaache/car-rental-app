@@ -1,0 +1,54 @@
+.Models{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 200px 10% 150px 10%;
+}
+
+.CarImage{
+    width: 500px;
+}
+
+.Models .buttons button{
+    display: block;
+    width: 100%;
+    padding: 18px 50px;
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: rgb(207, 207, 207);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    min-width: 300px;
+}
+
+.Models .buttons button:hover{
+    background-color: rgb(89, 65, 245, 0.85);  
+    color: rgb(255, 255, 255);  
+}
+
+@media screen and (max-width: 1300px) {
+    .Models {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+  
+    .Models .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        width: 100%;
+    }
+  
+    .Models .buttons button {
+        display: block;
+        width: 60%;
+        margin: 5px 0;
+        padding: 20px 0;
+        font-size: 14px;
+    }
+}

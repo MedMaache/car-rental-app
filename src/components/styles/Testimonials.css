@@ -1,0 +1,126 @@
+.Testimonials{
+    display: flex;
+    flex-direction: column;
+    margin: 120px 0;
+    padding: 120px 10%;
+    background-color: rgb(240, 240, 240);
+}
+
+.Testimonials .text{
+    text-align: center;
+    margin-bottom: 100px
+}
+
+.Testimonials .comments{ 
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.Testimonials h4{
+    font-size: 25px;
+}
+
+.Testimonials h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.Testimonials h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+    color: gray;
+}
+
+.Testimonials .comment-area{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 35px 35px;
+    width: 600px;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 20px 10px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Testimonials .joe{
+    width: 90px;
+    margin-right: 40px;
+}
+
+.Testimonials .description{
+    margin-bottom: 10px;
+}
+
+.Testimonials .profile{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-top: 30px;
+}
+
+.Testimonials .profile p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Testimonials .country{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(28, 28, 28);
+}
+
+.Testimonials .rating{
+    width: 150px;
+    margin: -10px 23% 50px 23%;
+}
+
+@media (max-width: 860px) {
+  .Testimonials {
+    margin: 80px 0; /* Adjust margin for smaller screens */
+    padding: 80px 5%; /* Adjust padding for smaller screens */
+  }
+
+  .Testimonials .text h1 {
+    font-size: 40px; /* Decrease font size for smaller screens */
+  }
+
+  .Testimonials .text h5 {
+    font-size: 20px; /* Decrease font size for smaller screens */
+  }
+
+  .Testimonials .comments {
+    flex-direction: column; /* Stack comments vertically on smaller screens */
+    gap: 2rem; /* Adjust gap between comments */
+  }
+
+  .Testimonials .comment-area {
+    width: 100%; /* Occupy full width on smaller screens */
+    max-width: 100%; /* Ensure comments don't exceed screen width */
+    height: auto; /* Allow height to adjust based on content */
+    padding: 40px; /* Adjust padding for smaller screens */
+    font-size: 20px; /* Decrease font size for smaller screens */
+  }
+
+  .Testimonials .joe {
+    width: 70px; /* Decrease image width for smaller screens */
+    margin-right: 20px; /* Adjust margin for smaller screens */
+  }
+
+  .Testimonials .profile p {
+    font-size: 20px; /* Decrease font size for smaller screens */
+  }
+
+  .Testimonials .country {
+    font-size: 20px; /* Decrease font size for smaller screens */
+  }
+
+  .Testimonials .rating {
+    width: 120px; /* Decrease image width for smaller screens */
+    margin: -10px 10% 20px 10%; /* Adjust margin for smaller screens */
+  }
+}

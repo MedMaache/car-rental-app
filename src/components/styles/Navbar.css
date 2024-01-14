@@ -1,0 +1,140 @@
+li, a, button{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 8%;
+}
+
+.logo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    cursor: default;
+    user-select: none;
+    color: rgb(89, 65, 245, 1);
+    margin-right: auto;
+
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #5740ec;
+}
+
+.Navbar-button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(89, 65, 245, 1);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.Navbar-button:hover{
+    background-color: rgb(89, 65, 245, 0.85);
+}
+
+.icon{
+    border: none;
+    background-color: white;
+}
+
+.navContainer {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 30px;
+    display: none;
+}
+  
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+  
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+  
+.change .bar2 {
+    opacity: 0;
+}
+  
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+#check{
+    display: none;
+}
+
+
+@media (max-width : 1300px){
+    .logo{
+        font-size: 25px;
+    }
+
+    .nav_links li a{
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width : 1100px){
+    .logo{
+        font-size: 30px;
+    }
+    
+    .navContainer{
+        display: block;
+    }
+
+    .nav_links {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 100px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .nav_links li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    .nav_links li a{
+        font-size: 20px;
+        color: white;
+    }
+
+    #check:checked ~ nav .nav_links {
+        left: 0;
+      }
+    
+}

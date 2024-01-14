@@ -1,0 +1,68 @@
+.Download {
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+    background-color: #f1f1f2;
+    padding: 100px 100px; 
+}
+  
+.Download .text {
+    margin-right: 5%; 
+    width: 80%; 
+}
+  
+.Download h1 {
+    width: 45%; 
+    font-size: 40px; 
+    margin-bottom: 20px; 
+}
+  
+.Download p {
+    margin: 20px 0; 
+    width: 45%; 
+    font-size: 18px; 
+    color: #666; 
+}
+  
+.Download .app {
+    margin-right: 3%; 
+    cursor: pointer;
+}
+  
+.Download .phone {
+    position: absolute;
+    margin: 50px 0; 
+    margin-left: 45%;
+}
+  
+@media screen and (max-width: 1192px) {
+    .Download {
+        flex-direction: column; 
+        align-items: center; 
+        padding: 100px 20px; 
+    }
+  
+    .Download .text {
+        width: 60%;
+        margin: 0;
+        text-align: center;
+    }
+  
+    .Download h1 {
+        width: 100%;
+        font-size: 35px; 
+    }
+  
+    .Download p {
+        width: 100%;
+        font-size: 20px; 
+    }
+  
+    .Download .app {
+        margin: 10px 2%;
+    }
+  
+    .Download .phone {
+        display: none; 
+    }
+}

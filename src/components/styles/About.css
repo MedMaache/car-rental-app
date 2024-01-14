@@ -1,0 +1,64 @@
+.About {
+    display: block; 
+    margin: 50px auto 20px auto; 
+    max-width: 1500px;
+    padding: 0 20px; 
+    box-sizing: border-box; 
+}
+
+.About .BText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.About h1,.About  h3,.About  h6,.About  p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.About  h3{
+    font-size: 25px;
+}
+
+.About h1{
+    font-size: 40px;
+}
+
+.About  p{
+    font-size: 20px;
+}
+
+.About  h6{
+    font-size: 20px;
+}
+
+.About .description{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.About .description img {
+    width: 100px; 
+    margin-bottom: 20px; /* Adjust margin for spacing between image and text */
+    display: block; /* Ensure the image behaves as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+
+  @media (max-width: 860px) {
+    .About .BText {
+      flex-direction: column; /* Stack elements vertically on smaller screens */
+    }
+  
+    .About .description {
+      margin-top: 80px; /* Adjust margin for better spacing between sections */
+      margin-bottom: -80px;
+    }
+  
+    .About .description img {
+      width: 100px; /* Adjust image size for smaller screens */
+    }
+  }

@@ -1,0 +1,141 @@
+.Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 150px 0 150px 8%;
+  }
+  
+  .Home .blue-car {
+    width: 700px;
+    transition: width 0.5s ease-in-out; 
+  }
+
+.Home .text h3{
+    font-size: 30px;
+    margin: 0 0 5% 0;
+}
+
+.Home .text h1{
+    font-size: 55px;
+    margin: 0 0 5% 0;
+}
+
+.Home .text p{
+    font-size: 20px;
+    margin: 0 0 10% 0;
+    color: gray;
+}
+
+.Home .big{
+    color: rgb(89, 65, 245);;
+}
+
+.Home .LButton{
+    margin-top: 2%;
+    margin-right: 20px;
+    padding: 20px 35px;
+    font-size: 20px;
+    border-radius: 3px;
+    background-color: rgb(89, 65, 245, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.Home .LButton:hover{
+    background-color: rgb(89, 65, 245, 0.85);
+}
+
+.Home .RButton{
+    margin-right: auto;
+    padding: 20px 35px;
+    font-size: 20px;
+    border-radius: 3px;
+    background-color: rgb(0, 0, 0, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.Home .RButton:hover{
+    background-color: rgb(0, 0, 0, 0.85);
+}
+
+@media (max-width : 1300px){
+    .Home .RButton{
+        padding: 20px 25px;
+        font-size: 15px;
+    }
+
+    .Home .LButton{
+        padding: 20px 25px;
+        font-size: 15px;
+    }
+
+    .Home .blue-car{
+        width: 600px;
+    }
+    
+    .Home .text h3{
+        font-size: 25px;
+    }
+    
+    .Home .text h1{
+        font-size: 50px;
+    }
+    
+    .Home .text p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width : 1200px){
+    .Home .RButton{
+        padding: 20px 25px;
+        font-size: 15px;
+    }
+
+    .Home .LButton{
+        padding: 20px 25px;
+        font-size: 15px;
+    }
+
+    .Home .blue-car{
+        width: 500px;
+    }
+    
+    .Home .text h3{
+        font-size: 23px;
+    }
+    
+    .Home .text h1{
+        font-size: 45px;
+    }
+    
+    .Home .text p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width : 1000px){
+    .Home .blue-car{
+        display: none;
+    }
+
+    .Home .text{
+        text-align: center;
+    }
+
+    .Home .RButton{
+        padding: 15px 30px;
+        font-size: 20px;
+    }
+
+    .Home .LButton{
+        padding: 15px 30px;
+        font-size: 20px;
+    }
+}
